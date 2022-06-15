@@ -9,7 +9,7 @@
     "build-prod": "webpack --mode production",
     "test": "jest",
     "generateData": "node utils/getEventJson.js > data/data.json",
-    "loadData": "node scripts/importData.ts "
+    "loadData": "node scripts/importData.js "
   },
   "keywords": [],
   "author": "",

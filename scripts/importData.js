@@ -1,5 +1,7 @@
-const {eventSchema, eventsModel, connection} =  require('/Users/jessekovash/Desktop/Coding/Interviews/sherpa/coding-challenge-backend/src/database/database.ts');
-const fs = require('fs');
+// const {eventSchema, eventsModel, connection} =  require('/Users/jessekovash/Desktop/Coding/Interviews/sherpa/coding-challenge-backend/src/database/database.ts');
+import { eventSchema, eventsModel, connection } from '/Users/jessekovash/Desktop/Coding/Interviews/sherpa/coding-challenge-backend/dist/database/database.js';
+// const fs = require('fs');
+import fs from 'fs';
 let eventData = fs.readFileSync('/Users/jessekovash/Desktop/Coding/Interviews/sherpa/coding-challenge-backend/data/data.json');
 const events = JSON.parse(eventData);
 
